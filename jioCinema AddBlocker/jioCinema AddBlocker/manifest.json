@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "JioCinema Ad Blocker Extension",
+  "version": "1",
+  "description": "This extension blocks the ads on JioCinema.",
+  "permissions": [
+    "declarativeNetRequest",
+    "storage","scripting","tabs"
+  ],
+  "host_permissions": [
+    "*://*.jiocinema.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

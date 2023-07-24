@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="popup.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <button id="btn_click">Click</button> -->
+    <div class="container">
+      <div class="firsth">
+        <div class="logo">
+          <img src="/64.png" alt="" srcset="" />
+        </div>
+        <div class="name">Jio Cinema AdBlocker</div>
+      </div>
+      <form class="setting">
+        <input type="checkbox" id="ads" name="ads" class="switch-input" />
+        <label for="ads" class="switch-label"
+          ><span data-message="ads" id="toggletext"
+            >Enable Adblocker</span
+          ></label
+        >
+      </form>
+
+      <div class="review">
+        <div class="reviewstore">Review & Share Feedback</div>
+        <div class="rating-wrapper" id="rate-us">
+          <input
+            type="radio"
+            data-ratting="1"
+            name="rating"
+            id="star-1"
+          /><label for="star-1" title="Awful"></label>
+          <input
+            type="radio"
+            data-ratting="2"
+            name="rating"
+            id="star-2"
+          /><label for="star-2" title="Needs Improvement"></label>
+          <input
+            type="radio"
+            data-ratting="3"
+            name="rating"
+            id="star-3"
+          /><label for="star-3" title="Good"></label>
+          <input
+            type="radio"
+            data-ratting="4"
+            name="rating"
+            id="star-4"
+          /><label for="star-4" class="rate" title="Liked It"></label>
+          <input
+            type="radio"
+            data-ratting="5"
+            name="rating"
+            id="star-5"
+          /><label for="star-5" class="rate" title="Excellent"></label>
+        </div>
+        <div class="message">
+            
+        </div>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
